@@ -7,7 +7,7 @@ The home page is the default screen and app entry point. This screen contains a 
 
 On the Graph page, you can find a graph showing total expenses by category.
 
-[DEMO]()
+[DEMO](https://ivanvasylenko.github.io/expense-app/)
 
 ## Tech stack
 - TypeScript
