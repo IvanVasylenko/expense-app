@@ -1,5 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
+
 import { Category } from '../types';
+
 import type { RootState } from './index';
 
 type CategoriesState = Category[];

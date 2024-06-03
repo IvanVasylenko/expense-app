@@ -1,7 +1,10 @@
 import React, { FC } from 'react';
+
 import { RootState } from '../store';
 import { useAppSelector } from '../store/hooks';
+
 import { getRandomColor } from '../utils';
+
 import {
   BarChart,
   Bar,
@@ -13,6 +16,7 @@ import {
   ReferenceLine,
   ResponsiveContainer,
 } from 'recharts';
+
 import { Grid, Typography } from '@mui/material';
 
 const Graphs: FC = () => {

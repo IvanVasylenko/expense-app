@@ -1,9 +1,11 @@
 import React, { FC } from 'react';
+
 import { RootState } from '../store';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { removeTransaction } from '../store/transactionsReducer';
+
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import { Chip, Grid, Typography } from '@mui/material';
-import { removeTransaction } from '../store/transactionsReducer';
 import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
 

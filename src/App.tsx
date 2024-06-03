@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { FC } from 'react';
+
 import { Routes, Route } from 'react-router-dom';
+
 import { Container } from '@mui/material';
+
 import Dashboard from './components/Dashboard';
 import Graphs from './components/Graphs';
 import Header from './components/Header';
 
-const App = () => {
+const App: FC = () => {
   return (
     <>
       <Header />

@@ -1,7 +1,9 @@
 import React, { FC, useState } from 'react';
+
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { addTransaction } from '../store/transactionsReducer';
 import { RootState } from '../store';
+
 import {
   Grid,
   TextField,
@@ -12,6 +14,7 @@ import {
   Typography,
   InputLabel,
 } from '@mui/material';
+
 import { DesktopDatePicker, LocalizationProvider,  } from '@mui/lab';
 import AdapterDateFns from '@mui/lab/AdapterDateFns';
 

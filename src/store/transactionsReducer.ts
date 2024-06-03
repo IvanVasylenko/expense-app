@@ -1,5 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
+
 import { Transaction } from '../types';
+
 import type { RootState } from './index';
 
 type TransactionsState = Transaction[];

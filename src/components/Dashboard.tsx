@@ -1,6 +1,8 @@
 import React, { FC } from 'react';
+
 import Categories from './Categories';
 import Transactions from './Transactions';
+
 import { Grid, Divider } from '@mui/material';
 
 const Dashboard: FC = () => (

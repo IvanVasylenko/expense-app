@@ -1,7 +1,9 @@
 import React, { FC } from 'react';
+
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { removeCategory } from '../store/categoriesReducer';
 import { RootState } from '../store';
+
 import { List, ListItem, ListItemText, IconButton } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 

@@ -1,6 +1,8 @@
 import React, { FC, useState } from 'react';
+
 import { useAppDispatch } from '../store/hooks';
 import { addCategory } from '../store/categoriesReducer';
+
 import { TextField, Button, Grid } from '@mui/material';
 
 const CategoriesForm:FC = () => {
