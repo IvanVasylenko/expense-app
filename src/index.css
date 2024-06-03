@@ -79,3 +79,17 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+.greed-row--positive {
+  background-color: rgba(129, 199, 132, .1);
+}
+div.greed-row--positive.MuiDataGrid-row:hover {
+  background-color: rgba(102, 187, 106, .15);
+}
+
+.greed-row--negative {
+  background-color: rgba(229, 115, 115, .1);
+}
+div.greed-row--negative.MuiDataGrid-row:hover {
+  background-color: rgba(244, 67, 54, .15);
+}

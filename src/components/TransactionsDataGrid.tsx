@@ -85,6 +85,7 @@ const TransactionsDataGrid:FC = () => {
           disableColumnSelector
           disableColumnMenu
           autoHeight
+          getRowClassName={(params) => `greed-row--${params.row.amount > 0 ? 'positive' : 'negative'}`}
         />
       </Grid>
     </Grid>
