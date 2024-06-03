@@ -87,9 +87,6 @@ const TransactionForm:FC = () => {
               type='number'
               value={amount}
               onChange={(e) => setAmount(Number(e.target.value))}
-              InputProps={{
-                inputProps: { min: 0 }
-              }}
               InputLabelProps={{
                 shrink: true,
               }}
